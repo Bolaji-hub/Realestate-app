@@ -7,12 +7,12 @@ const Header = () => {
         <h2>Contacts Manager</h2>
         <form className="form">
           <div className="field">
-            <label>name</label>
+            <label>Name</label>
             <input type="text" name="name" placeholder="Name" />
           </div>
           <div className="field">
-            <label>name</label>
-            <input type="text" name="name" placeholder="Name" />
+            <label>Email</label>
+            <input type="text" name="name" placeholder="Email" />
           </div>
           <button className="btn">Add</button>
         </form>
